@@ -1,0 +1,6 @@
+=> Simple E-Commerce
+
+-> Semantic HTML:
+    memaksimalkan kebutuhan membaca agar lebih dikenali.
+-> Non-Semantic HTML:
+    ya kebalikannya sematic xixi...

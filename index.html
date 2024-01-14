@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>E-Commerce | DeaCourse | By Viery</title>
+
+  <link rel="icon" type="image/x-icon" href="/assets/images/CUYSHOP2.png" />
+  <!-- CSS start-->
+  <link rel="stylesheet" href="style.css" />
+  <!-- CSS end -->
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- fontawesome -->
+
+  <!-- Animate Css -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- Animate Css End -->
+</head>
+
+<body>
+  <header>
+    <nav>
+      <ul class="navList">
+        <li class="navItem">
+          <a class="navLink" href="/index.html">
+            <span class="navIcon fa fa-home"></span>
+            <span class="navText">HOME</span>
+          </a>
+        </li>
+        <li class="navItem">
+          <a class="navLink" href="/product/product.html">
+            <span class="navIcon fa fa-cart-shopping"></span>
+            <span class="navText">PRODUCTS</span>
+          </a>
+        </li>
+        <li class="navItem">
+          <a class="navLink" href="/category/category.html">
+            <span class="navIcon fa fa-tag"></span>
+            <span class="navText">CATEGORY</span>
+          </a>
+        </li>
+        <li class="navItem">
+          <a class="navLink" href="/contact/contact.html">
+            <span class="navIcon fa fa-contact-card"></span>
+            <span class="navText">CONTACT</span>
+          </a>
+        </li>
+        <li class="navItem">
+          <div>
+            <input type="checkbox" class="checkBox" id="checkBox" />
+            <label class="label" for="checkBox">
+              <i class="fas fa-moon"></i>
+              <div class="ball"></div>
+            </label>
+          </div>
+        </li>
+      </ul>
+    </nav>
+    <img class="svg svgTop" src="/assets/images/waveTop.svg" alt="" />
+  </header>
+
+  <main>
+    <div class="container">
+      <!-- Home -->
+      <div class="heroContainer">
+        <img src="assets/images/banner-preview.png" alt="" />
+
+        <div class="homeTitle">
+          <img class="animate__animated animate__bounce animate__infinite infinite" src="/assets/images/CuySHOP.png"
+            alt="" />
+          <p>Belanja Serba <span>100K</span>, Tidak Aman, & Barang Tidak Dikirim</p>
+          <p><span class="titleSpan">Karena Apa?</span></p>
+          <p>Karena Ini Cuma Buat Belajar ygy</p>
+        </div>
+      </div>
+
+      <div class="cardHomeContainer">
+        <div class="cardContainer">
+          <div class="titleCard">
+            <h1>Pengiriman Cepat!</h1>
+            <p>Tapi Tidak Sampai</p>
+          </div>
+          <p class="p2">Kami Bekerja Sama Dengan Berbagai Mitra Demi Kelancaran Berbelanja Anda</p>
+          <div class="cardHome">
+            <img src="assets/images/jne.png" alt="" />
+            <img src="assets/images/jnt.png" alt="" />
+            <img src="assets/images/pos.png" alt="" />
+          </div>
+        </div>
+        <div class="orangGabut">
+          <img class="somHi animate__animated animate__bounceInRight " src="/assets/images/somHi.png" alt="" />
+        </div>
+      </div>
+
+      <a href="/product/product.html">
+        <button class="homeButton">Belanja Sekarang!</button>
+      </a>
+
+      <div class="whatsapp">
+        <img onclick="chat()" src="/assets/images/whatsapp.png" alt="" />
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="copyright">
+      <p>CuySHop | <span id="footerYear"></span></p>
+      <p class="miniFooter">Created by Viery</p>
+    </div>
+    <div class="sponsor">
+      <p>Supported By</p>
+      <img src="/assets/images/google.png" alt="google" />
+      <img src="/assets/images/jne.png" alt="jne" />
+      <img src="/assets/images/jnt.png" alt="jnt" />
+      <img src="/assets/images/pos.png" alt="pos" />
+    </div>
+
+    <div class="info">
+      <p><i class="fa-solid fa-location-dot"></i> Blitar, Indonesia</p>
+      <p><i class="fa-solid fa-envelope"></i> cuyshopsupport@gmail.com</p>
+    </div>
+  </footer>
+
+  <!-- JAVASCRIPT start  -->
+  <script src="script.js"></script>
+  <!-- JAVASCRIPT end  -->
+</body>
+
+</html>
